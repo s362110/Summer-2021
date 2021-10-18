@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reflection.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Redressed" />
+    <title>Reflection</title>
+</head>
+<body>
+    
+    <h1>
+        Reflection
+    </h1>
+
+<div>
+    <p>Den mest vanskelige delen med å etterligne skissen til mobiltelefon og stor skjerm rammene var å lage kant i sort farge rundt alle bokstavene i teksten. 
+        Etter flere timer med mange forsøk innså vi at egentlig bare kunne gjenta koden for text-shadow 5 ganger, med komma-tegn imellom hver også sette pixler etter det vi ønsker. 
+        Vi endte opp med å skrive koden slik</p>
+    <div>
+        <img src="Image/text-shadow.JPG" alt="Image of text-shadow codes in html.">
+        <p>
+            Her ser du hvordan vi gjorde det. På første linje skrev vi hvordan selve text-shadow skulle se ut. 
+            På de neste 4 linjene under ser du text-border, som larger de sorte kantene på teksten.
+        </p>
+    </div>
+
+    <p>
+        I tillegg til alt dette så var det en ting som var mye viktigere å kunne. 
+        For vi visste ikke at alle font-typene ikke alltid var tilgjengelige i html. 
+        Siden den font-typen vi trengte ikke var tilgjengelig, så vi søkte oss litt frem og fant en link som man legger inn i html siden over title-elementet. 
+        Etter det fikk vi den riktige fonten, og hvis vi hadde funnet den linken så hadde vi ikke fått den fonten vi skulle bruke.
+    </p>
+    <p>
+        En annen ting som gjorde det litt vanskelig var å sette bakgrunnsbilde, fordi når jeg la til url for bakgrunnsbilde i css, så ble det feil, fordi jeg da blir nødt til å sette den inn i body-området. 
+        Noe som blir feil, fordi da får vi ikke riktig mål for bakgrunnbilde. 
+        Og uansett hvor mye vi endrer på tallene så er størrelsen på bilde fortsatt feil. 
+        Vi brukte noen nye måter for å sette bakgrunnsbildet. 
+        Dette fant vi ut at vi kunne gjøre ved hjelp av img-taggen. I html lagde vi en id inni img-taggen, og videre i css skrev vi #id-en (til img-taggen) også alle størrelsen vi skulle ha på bakgrunnsbilde, dvs. width og height. 
+        Denne måten funket perfekt på begge rammene, var enkel, og ga et veldig bra resultat.
+    </p>
+    <p>
+        Vi støtte ikke på noen spesielle problemer, men det var en ting som vi ikke klarte å fikse i starten men skjønte litt senere. 
+        Og det var at plasseringen til teksten og bildene var ikke riktig når vi skrev inn høyde og bredde for hver av dem, men så innså vi at høyden og bredden fikser ikke plasseringen. 
+        Derfor brukte vi margin-top og margin-left for å fikse plasseringene deres. 
+        Dette endte opp med å være ganske lett, og at det egentlig var bare vi som ikke forstod hva vi gjorde.
+    </p>
+    <p>
+        Vi brukte picture-elementet i html kodene våre slik at vi får mer fleksibilitet i å spesifisere bildene våre. 
+        I tillegg brukte vi p-taggen for å legge til tekst. 
+        De bildene som hadde samme størrelsen la vi sammen i en div.
+    </p>
+</div>
+    
+</body>
+</html>

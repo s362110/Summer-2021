@@ -1,0 +1,35 @@
+body{
+    background-image: url(Image/green-to-blue-gradient.png);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+
+    /* dette lager både en en border(2-5 linje) og en shadow (1 linje)*/
+    text-shadow: 
+        0px 4px 4px black,
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+div > p{
+    text-shadow: 
+    0px 4px 4px black,
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+
+    color: white;
+}

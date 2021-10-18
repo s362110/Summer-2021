@@ -1,0 +1,174 @@
+body{
+    /* MacBook - 1 */
+
+    position: relative;
+    width: 1152px;
+    height: 700px;
+
+    background: #FFFFFF;
+}
+
+#background-image{
+    position: absolute;
+    width: 1152px;
+    height: 700px;
+
+    background: #69999C;
+
+    background: url(../Image/green-to-blue-gradient.png);
+}
+
+h1{
+    position: absolute;
+    width: 263px;
+    height: 67px;
+    margin-left: 444px;
+    margin-top: 17px;
+
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+
+    /* dette lager både en en border(2-5 linje) og en shadow (1 linje)*/
+    text-shadow: 
+        0px 4px 4px black,
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.size1{
+    position: absolute;
+    width: 164px;
+    height: 202px;
+
+    margin-top: 113px;
+}
+
+.size2{
+    position: absolute;
+    width: 187px;
+    height: 250px;
+
+    margin-top: 379px;
+}
+
+.size3{
+    position: absolute;
+    width: 290px;
+    height: 192.4px;
+
+    margin-left: 796px;
+}
+
+p{
+    position: absolute;
+
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+        /* dette lager både en en border(2-5 linje) og en shadow (1 linje)*/
+    text-shadow: 
+    0px 4px 4px black,
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+#img1{
+    margin-left: 30px;
+
+    border: 2px solid #3279E2;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 15px 4px #339862;
+}
+
+#txt1{
+    margin-left: 207px;
+    margin-top: 130px;
+
+    width: 158px;
+    height: 185px;
+}
+
+#img2{
+    margin-left: 399px;
+
+    border: 2px solid #214504;
+    box-shadow: -5px 5px 15px 5px #214504;
+}
+
+#txt2{
+    margin-top: 130px;
+    margin-left: 582px;
+    width: 137px;
+    height: 182px;
+}
+
+#img3{
+    margin-left: 30px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px #2C411C);
+}
+
+#txt3{
+    margin-top: 403px;
+    margin-left: 237px;
+    width: 120px;
+    height: 170px;
+}
+
+#img4{
+    margin-left: 399px;
+
+    border: 4px solid #2C411C;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 3px #2C411C;
+}
+
+#txt4{
+    margin-top: 403px;
+    margin-left: 612px;
+    width: 115px;
+    height: 194px;
+}
+
+#img5{
+    margin-top: 63px;
+
+    border: 2px solid #605B57;
+    box-shadow: -5px 5px 15px 4px #605B57;
+}
+
+#txt5{
+    margin-top: 277px;
+    margin-left: 751px;
+    width: 380px;
+    height: 88px;
+}
+
+#img6{
+    margin-top: 388px;
+
+    border: 3px solid #BAAC2D;
+    box-shadow: -5px 5px 15px 4px #BAAC2D;
+}
+
+#txt6{
+    margin-top: 606px;
+    margin-left: 712px;
+    width: 426px;
+    height: 80px;
+}
